@@ -80,6 +80,10 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 		</dependency>
 	</dependencies>
@@ -130,7 +134,7 @@
 				<version>3.4.5</version>
 				<configuration>
 					<to>
-						<image>szymiks/${project.artifactId}:v3</image>
+						<image>szymiks/${project.artifactId}:v4</image>
 					</to>
 				</configuration>
 			</plugin>
